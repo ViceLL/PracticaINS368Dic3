@@ -76,7 +76,7 @@ void KelvinK()
 
 void FahrenheitK()
 {
-    fahrenheit_k = celsius_k - 273.15;
+     fahrenheit_k = (celsius_k * 5/9) + 273.15;
 }
 
 void CelsiusK()
