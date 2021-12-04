@@ -18,7 +18,6 @@ if (temperatura == 2)
     FahrenheitF();
     CelsiusF();
     KelvinF();
-    fahrenheit_f = int.Parse(Console.ReadLine());
 
 }
 
@@ -27,8 +26,7 @@ if (temperatura == 3)
     kelvin_k = int.Parse(Console.ReadLine());
     KelvinK();
     CelsiusK();
-    FahrenheitK();
-    kelvin_k = int.Parse(Console.ReadLine());
+    FahrenheitK(); 
 
 }
 
