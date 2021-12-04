@@ -1,4 +1,4 @@
-﻿int temperatura;
+int temperatura;
 double celsius_c,celsius_f, celsius_k;
 double fahrenheit_c, fahrenheit_f, fahrenheit_k, kelvin_c, kelvin_f, kelvin_k;
 Console.WriteLine("Ingrese la temperatura que desee (1.Celsius, 2.Fahrenheit o 3.Kelvin): ");
@@ -15,11 +15,19 @@ if (temperatura == 1)
 if (temperatura == 2)
 {
     fahrenheit_f = int.Parse(Console.ReadLine());
+    FahrenheitF();
+    CelsiusF();
+    KelvinF();
+    fahrenheit_f = int.Parse(Console.ReadLine());
 
 }
 
 if (temperatura == 3)
 {
+    kelvin_k = int.Parse(Console.ReadLine());
+    KelvinK();
+    CelsiusK();
+    FahrenheitK();
     kelvin_k = int.Parse(Console.ReadLine());
 
 }
@@ -75,6 +83,6 @@ void FahrenheitK()
 
 void CelsiusK()
 {
-    kelvin_k = celsius_k - 273.15;
+    celsius_k = kelvin_k - 273.15;
     Console.WriteLine("Kelvin: " + kelvin_k);
 }
