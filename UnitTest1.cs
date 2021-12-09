@@ -17,7 +17,7 @@ namespace TestProjectGrabacionTemperatura
 
             string result = objeto.ToFahrenheit(number, key);
 
-            Assert.AreEqual(86, 32, 273.15, result);
+            Assert.AreEqual(86, 32, 305.15, result);
 
         }
         [TestMethod]
