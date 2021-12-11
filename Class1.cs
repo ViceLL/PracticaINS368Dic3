@@ -9,7 +9,7 @@
             fahrenheit = 0;
             celsius = 0;
             kelvin = 0;
-            number = 40;
+            number = 0;
             key = " ";
         }
         public string ToFahrenheit(double number, string key)
