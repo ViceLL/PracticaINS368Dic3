@@ -18,7 +18,7 @@
             if (key == "fahrenheit")
             {
                 temperatures.fahrenheit = number;
-                temperatures.celsius = (double)(number - 32) * (5 / 9);
+                temperatures.celsius = (double)(number - 32) * 5 / 9;
                 temperatures.kelvin = (double)temperatures.celsius + 273.15;
 
                 return "Fahrenheit: " + temperatures.fahrenheit + "\nCelsius: " + temperatures.celsius + "\nKelvin: " + temperatures.kelvin;
