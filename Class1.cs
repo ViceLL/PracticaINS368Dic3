@@ -25,7 +25,7 @@
             }
             else
             {
-                return "Error";
+                return "Bad Request";
             }
         }
         public string ToCelsius(double number, string key)
@@ -41,7 +41,7 @@
             }
             else
             {
-                return "Error";
+                return "Bad Request";
             }
         }
         public string ToKelvin(double number, string key)
@@ -57,7 +57,7 @@
             }
             else
             {
-                return "Error";
+                return "Bad Request";
             }
         }
     }
